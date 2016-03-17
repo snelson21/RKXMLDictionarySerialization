@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "RKXMLDictionarySerialization"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "A RestKit serialization format implementation for XML using XMLDictionary."
   s.homepage     = "https://github.com/DZamataev/RKXMLDictionarySerialization"
   s.license      = { :type => 'MIT', :file => 'LICENSE'}
-  s.author       = { "Denis Zamataev" => "denis.zamataev@gmail.com" }
+  s.author       = { "Steele Nelson" => "snelson21@gmail.com" }
   s.source       = {
-    :git => "https://github.com/DZamataev/RKXMLDictionarySerialization.git",
+    :git => "https://github.com/snelson21/RKXMLDictionarySerialization.git",
 	:tag => s.version.to_s 
   }
   
